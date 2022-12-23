@@ -1,4 +1,4 @@
-public class PAYMENT {
+public class Payment {
     Integer id;
     
 }

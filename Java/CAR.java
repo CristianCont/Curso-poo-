@@ -1,7 +1,17 @@
-public class CAR {
+public class Car {
     Integer id;
     String license;
-    String Drive;
+    Account Drive;
     Integer Passenger;
+
+    public Car(String license,Account Drive){
+        this.license=license;
+        this.Drive=Drive;
+    }
+
+
+    void printDataCar(){
+        System.out.println("License: "+license+ " Drive: "+ Drive.name );
+    }
 }
 

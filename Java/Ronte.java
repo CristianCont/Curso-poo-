@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ROUTE {
+public class Ronte {
     Integer id;
     ArrayList<Double> Start;
     ArrayList<Double> End;
